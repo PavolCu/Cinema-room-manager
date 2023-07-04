@@ -1,0 +1,21 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            // put your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5012#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 30 May 2023 13:58:26 UTC"
+record: -1
+submission_language: java17

@@ -1,0 +1,21 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class ArrayOperations {
+        public static void printCorners(int[][] twoDimArray) {
+            // write your code here
+
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12443#comment
+status: Failed
+feedback:
+  message: "Failed test #1 of 8. Runtime error\n\nError:\nException in thread \"main\"\
+    \ java.util.NoSuchElementException: No line found\n\tat java.base/java.util.Scanner.nextLine(Scanner.java:1651)\n\
+    \tat ArrayOperations.main(Main.java:37)\n"
+  time: "Sat, 17 Jun 2023 21:47:45 UTC"
+record: -1
+submission_language: java17

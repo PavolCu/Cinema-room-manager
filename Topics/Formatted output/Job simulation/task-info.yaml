@@ -1,14 +1,14 @@
 type: code
 files:
-- name: src/Main.java
-  visible: true
-  text: "public class Main {\n    public static void main(String[] args) {       \
+  - name: src/Main.java
+    visible: true
+    text: "public class Main {\n    public static void main(String[] args) {       \
     \ \n        String name = \"Lazy\";\n        String status = \"detected\";\n \
     \       int errorCode = 2;\n\n        //Fix code below\n        String formattedMessage\
     \ = String.format(\"%s employee %d! Error code: %s\", name, status, errorCode);\n\
     \        System.out.printf(\"Result of work - %c\", formattedMessage);\n    }\n\
     }"
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/29693#comment
 status: Solved
 feedback:

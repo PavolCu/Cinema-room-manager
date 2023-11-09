@@ -1,22 +1,22 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: "The methods add(), update(), and delete() represent functional decomposition."
-- text: The main() method is responsible for functional decomposition in this example.
-- text: The switch statement in the printMenu() method helps perform functional decomposition.
-- text: The printMenu() method is an example of functional decomposition.
+  - text: "The methods add(), update(), and delete() represent functional decomposition."
+  - text: The main() method is responsible for functional decomposition in this example.
+  - text: The switch statement in the printMenu() method helps perform functional decomposition.
+  - text: The printMenu() method is an example of functional decomposition.
 files:
-- name: src/Task.java
-  visible: true
-  text: |
-    // You can experiment here, it won’t be checked
-
-    public class Task {
-      public static void main(String[] args) {
-        // put your code here
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
       }
-    }
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/30319#comment
 status: Solved
 record: -1

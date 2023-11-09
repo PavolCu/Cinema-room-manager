@@ -1,23 +1,23 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: Compile-time errors may occur when a program is already started.
-- text: Debugging can help to find compile-time errors.
-- text: "If your program compiles successfully, there are no guarantees that it does\
+  - text: Compile-time errors may occur when a program is already started.
+  - text: Debugging can help to find compile-time errors.
+  - text: "If your program compiles successfully, there are no guarantees that it does\
     \ not have run-time errors."
-- text: The forgotten semicolon in source code is a run-time error.
+  - text: The forgotten semicolon in source code is a run-time error.
 files:
-- name: src/Task.java
-  visible: true
-  text: |
-    // You can experiment here, it won’t be checked
-
-    public class Task {
-      public static void main(String[] args) {
-        // put your code here
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
       }
-    }
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/3476#comment
 status: Solved
 record: -1

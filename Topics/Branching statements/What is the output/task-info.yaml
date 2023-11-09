@@ -1,22 +1,22 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: 012
-- text: 0
-- text: 000
-- text: '000111222 '
+  - text: '012'
+  - text: 0
+  - text: '000'
+  - text: '000111222 '
 files:
-- name: src/Task.java
-  visible: true
-  text: |
-    // You can experiment here, it won’t be checked
-
-    public class Task {
-      public static void main(String[] args) {
-        // put your code here
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
       }
-    }
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/1969#comment
 status: Solved
 record: -1

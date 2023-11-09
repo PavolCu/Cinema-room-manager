@@ -1,28 +1,28 @@
 type: matching
 captions:
-- // a comment
-- /* a comment */
-- /** a comment */
+  - // a comment
+  - /* a comment */
+  - /** a comment */
 options:
-- multi-line comment
-- doc comment
-- end-of-line comment
+  - multi-line comment
+  - doc comment
+  - end-of-line comment
 files:
-- name: src/Task.java
-  visible: true
-  text: |
-    // You can experiment here, it won’t be checked
-
-    public class Task {
-      public static void main(String[] args) {
-        // put your code here
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
       }
-    }
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2499#comment
 status: Solved
 record: -1
 ordering:
-- 0
-- 1
-- 2
+  - 0
+  - 1
+  - 2

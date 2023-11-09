@@ -1,26 +1,26 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: Switch statement in the &#x27;computeGrade&#x27; method is used to determine
-    the grade based on the input score
-- text: The &#x27;main&#x27; method is the entry point of the program and calls the
-    &#x27;computeGrade&#x27; method with the specified score
-- text: '&#x27;computeGrade&#x27; method accepts an integer parameter and returns
+  - text: Switch statement in the &#x27;computeGrade&#x27; method is used to determine
+      the grade based on the input score
+  - text: The &#x27;main&#x27; method is the entry point of the program and calls the
+      &#x27;computeGrade&#x27; method with the specified score
+  - text: '&#x27;computeGrade&#x27; method accepts an integer parameter and returns
     a character representing the grade'
-- text: This code demonstrates functional decomposition by splitting the grading process
-    into a separate method called &#x27;computeGrade&#x27;
+  - text: This code demonstrates functional decomposition by splitting the grading process
+      into a separate method called &#x27;computeGrade&#x27;
 files:
-- name: src/Task.java
-  visible: true
-  text: |
-    // You can experiment here, it won’t be checked
-
-    public class Task {
-      public static void main(String[] args) {
-        // put your code here
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
       }
-    }
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/29983#comment
 status: Solved
 record: -1

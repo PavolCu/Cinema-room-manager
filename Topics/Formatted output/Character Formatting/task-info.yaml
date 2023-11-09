@@ -1,22 +1,22 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: Marks for my assignment is 6
-- text: Runtime error
-- text: Marks for my assignment is 56
-- text: Compile time error
+  - text: Marks for my assignment is 6
+  - text: Runtime error
+  - text: Marks for my assignment is 56
+  - text: Compile time error
 files:
-- name: src/Task.java
-  visible: true
-  text: |
-    // You can experiment here, it won’t be checked
-
-    public class Task {
-      public static void main(String[] args) {
-        // put your code here
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
       }
-    }
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/7051#comment
 status: Solved
 record: -1

@@ -1,22 +1,22 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: 2D map on which objects are positioned with coordinates
-- text: Creating matrices
-- text: Position of an object in 3D space
-- text: Creating tables
+  - text: 2D map on which objects are positioned with coordinates
+  - text: Creating matrices
+  - text: Position of an object in 3D space
+  - text: Creating tables
 files:
-- name: src/Task.java
-  visible: true
-  text: |
-    // You can experiment here, it won’t be checked
-
-    public class Task {
-      public static void main(String[] args) {
-        // put your code here
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
       }
-    }
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/12438#comment
 status: Solved
 record: -1

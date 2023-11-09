@@ -1,23 +1,23 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: "Logic error: incorrect calculation of result"
-- text: "Runtime error: division by zero"
-- text: "Syntax error: invalid variable declaration"
-- text: Missing main method signature
-- text: "Syntax error: missing import statement"
+  - text: "Logic error: incorrect calculation of result"
+  - text: "Runtime error: division by zero"
+  - text: "Syntax error: invalid variable declaration"
+  - text: Missing main method signature
+  - text: "Syntax error: missing import statement"
 files:
-- name: src/Task.java
-  visible: true
-  text: |
-    // You can experiment here, it won’t be checked
-
-    public class Task {
-      public static void main(String[] args) {
-        // put your code here
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
       }
-    }
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/29772#comment
 status: Solved
 record: -1

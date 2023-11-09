@@ -1,22 +1,22 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: NullPointerException
-- text: IOException
-- text: ArithmeticException
-- text: NumberFormatException
+  - text: NullPointerException
+  - text: IOException
+  - text: ArithmeticException
+  - text: NumberFormatException
 files:
-- name: src/Task.java
-  visible: true
-  text: |
-    // You can experiment here, it won’t be checked
-
-    public class Task {
-      public static void main(String[] args) {
-        // put your code here
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
       }
-    }
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/28738#comment
 status: Solved
 record: -1

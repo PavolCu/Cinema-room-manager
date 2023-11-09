@@ -1,22 +1,22 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: The distance between two towns 120L
-- text: Runtime Error
-- text: The distance between two towns 120
-- text: Compilation error
+  - text: The distance between two towns 120L
+  - text: Runtime Error
+  - text: The distance between two towns 120
+  - text: Compilation error
 files:
-- name: src/Task.java
-  visible: true
-  text: |
-    // You can experiment here, it won’t be checked
-
-    public class Task {
-      public static void main(String[] args) {
-        // put your code here
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
       }
-    }
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/7050#comment
 status: Solved
 record: -1

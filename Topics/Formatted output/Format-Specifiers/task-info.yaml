@@ -1,31 +1,31 @@
 type: matching
 captions:
-- int
-- char
-- double
-- String
+  - int
+  - char
+  - double
+  - String
 options:
-- '%c'
-- '%s'
-- '%d'
-- '%f'
+  - '%c'
+  - '%s'
+  - '%d'
+  - '%f'
 files:
-- name: src/Task.java
-  visible: true
-  text: |
-    // You can experiment here, it won’t be checked
-
-    public class Task {
-      public static void main(String[] args) {
-        // put your code here
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
       }
-    }
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/7048#comment
 status: Solved
 record: -1
 ordering:
-- 0
-- 1
-- 2
-- 3
+  - 0
+  - 1
+  - 2
+  - 3
